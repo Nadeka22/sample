@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Name - Welcome</title>
+    <!-- Add your CSS stylesheets here (e.g., Bootstrap, custom styles) -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <!-- Add your logo and navigation links here -->
+            <div class="logo">
+                <img src="your_logo.png" alt="Hotel Name Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#rooms">Rooms</a></li>
+                <li><a href="#amenities">Amenities</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <div class="hero-image">
+            <!-- Add an attractive image of your hotel here -->
+            <img src="hero_image.jpg" alt="Hotel Hero Image">
+        </div>
+        <div class="hero-content">
+            <!-- Add a welcoming message or call-to-action here -->
+            <h1>Welcome to Hotel Name</h1>
+            <p>Experience luxury and comfort at its best.</p>
+            <a href="#rooms" class="btn">Book Now</a>
+        </div>
+    </section>
+
+    <!-- Rooms Section -->
+    <section id="rooms">
+        <!-- Add information about the different room types and their features -->
+        <h2>Our Rooms</h2>
+        <div class="room-card">
+            <img src="room1.jpg" alt="Room 1">
+            <h3>Standard Room</h3>
+            <p>Our standard rooms offer a comfortable stay at an affordable price.</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+        <div class="room-card">
+            <img src="room2.jpg" alt="Room 2">
+            <h3>Deluxe Room</h3>
+            <p>Experience luxury with our deluxe rooms, equipped with modern amenities.</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+        <!-- Add more room cards as needed -->
+    </section>
+
+    <!-- Amenities Section -->
+    <section id="amenities">
+        <!-- Add information about the amenities offered by the hotel -->
+        <h2>Our Amenities</h2>
+        <ul>
+            <li>Swimming Pool</li>
+            <li>Restaurant & Bar</li>
+            <li>Spa & Wellness Center</li>
+            <li>Conference Rooms</li>
+            <!-- Add more amenities as needed -->
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <!-- Add a contact form and other contact information -->
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+        <div class="contact-info">
+            <p>Email: info@hotelname.com</p>
+            <p>Phone: +1 (123) 456-7890</p>
+            <!-- Add more contact details as needed -->
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 Hotel Name. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
